@@ -49,7 +49,7 @@
       </form>
     </div>
 
-    <!-- Iframe to display results -->
+    <!--Iframe to display results-->
     <iframe id="display-result" name="display-result"></iframe>
   </body>
 </html>
