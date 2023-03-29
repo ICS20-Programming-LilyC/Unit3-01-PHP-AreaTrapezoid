@@ -1,8 +1,8 @@
 <?php
   //Get the user input
-  $heightOfTrapezoid = floatval($_POST["height-trapezoid"]);
-  $sideAOfTrapezoid = floatval($_POST["side-a-trapezoid"]);
-  $sideBOfTrapezoid = floatval($_POST["side-b-trapezoid"]);
+  $heightOfTrapezoid = floatval($_POST["height"]);
+  $sideAOfTrapezoid = floatval($_POST["side-a"]);
+  $sideBOfTrapezoid = floatval($_POST["side-b"]);
 
   //Calculate the area
   $area = (($sideAOfTrapezoid + $sideBOfTrapezoid) * $heightOfTrapezoid) / 2;
